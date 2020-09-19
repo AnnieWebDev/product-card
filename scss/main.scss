@@ -47,7 +47,7 @@ body {
     }
 
     &__info {
-        margin-bottom: 36px;
+        margin-bottom: 30px;
         padding-right: 40px;
     }
 
@@ -67,6 +67,58 @@ body {
     &__info-value {
         color: #676666;
         font-size: 15px;
+    }
+
+    &__price {
+        margin-bottom: 30px;
+    }
+
+    &__price-current {
+        color: #4493a0;
+        font-size: 50px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+
+    &__price-info {
+        display: flex;
+    }
+
+    &__price-old {
+        color: #252525;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: line-through;
+        margin-right: 38px;
+    }
+
+    &__price-discount {
+        color: #55a32a;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    &__save-button {
+        margin-right: 5px;
+    }
+
+    &__description {
+        margin: 15px 0;
+    }
+
+    &__description-title {
+        color: #211f1f;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    &__description-text {
+        color: #676666;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
     }
 }
 
@@ -103,4 +155,68 @@ body {
     i.far {
         color: #afafaf;
     }
+}
+
+.btn {
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 20px 35px;
+    border: none;
+    background-color: grey;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+    &_green {
+        background-color: #55a32a;
+    }
+
+    &_blue {
+        background-color: #2d91a1;
+    }
+
+    &_upper {
+        text-transform: uppercase;
+    }
+
+    &_large {
+        min-width: 210px;
+        text-align: center;
+    }
+}
+
+.social {
+    display: flex;
+
+    &__link {
+        width: 29px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #e3e3e3;
+        text-align: center;
+        line-height: 28px;
+        color: #000000;
+        margin-right: 3px;
+        font-size: 14px;
+    }
+
+    &__link:last-child {
+        margin-right: 0;
+    }
+
+    &__link_fb {
+        background-color: #305891;
+        color: white;
+    }
+
+    &__link_tw {
+        background-color: #2ca8d2;
+        color: white;
+    }
+
+    &__link_google {
+        background-color: #c72e0b;
+        color: white;
+    }
+
 }
